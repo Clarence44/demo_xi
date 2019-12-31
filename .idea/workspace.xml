@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99977ce0-a095-4b1b-85bb-c3068a267562" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VkYBmGFkBnY8x8aCx3cBfBMWoE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
