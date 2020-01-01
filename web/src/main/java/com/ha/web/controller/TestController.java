@@ -16,11 +16,12 @@ public class TestController {
     }
 
     @GetMapping(value = "/about")
-    public String about(){
+    public String about() {
         return userService.testService();
     }
-    @GetMapping(value="/hello")
-    public String hello(){
+
+    @GetMapping(value = "/hello")
+    public String hello() {
         return "hello";
     }
 }
