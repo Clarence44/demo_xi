@@ -1,121 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99977ce0-a095-4b1b-85bb-c3068a267562" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
-    </list>
+    <list default="true" id="bef92a15-c95c-4f0b-b2e4-ccebb0dee3bd" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo_xi@129.226.113.148" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo_xi@129.226.113.148" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="demo_xi@129.226.113.148" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="demo_xi: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1VkYBmGFkBnY8x8aCx3cBfBMWoE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1VmmaTcyh8SY8LDKdGJg5AUnZYd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo_xi" />
+  <component name="RunManager" selected="Spring Boot.SpringBootWebApplication">
+    <configuration name="HaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xi.ha.HaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="ha.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ha.web.SpringBootWebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DemoApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="RunManager">
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="demo_xi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Spring Boot.SpringBootWebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -136,14 +77,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="99977ce0-a095-4b1b-85bb-c3068a267562" name="默认更改列表" comment="" />
-      <created>1577798427228</created>
+      <changelist id="bef92a15-c95c-4f0b-b2e4-ccebb0dee3bd" name="默认更改列表" comment="" />
+      <created>1577866707388</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577798427228</updated>
-      <workItem from="1577798430939" duration="1000" />
-      <workItem from="1577799209248" duration="29000" />
-      <workItem from="1577799752373" duration="3458000" />
+      <updated>1577866707388</updated>
+      <workItem from="1577866711484" duration="563000" />
+      <workItem from="1577867303251" duration="1683000" />
     </task>
     <servers />
   </component>
@@ -151,60 +91,69 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577802606781">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="452" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1577868980564">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577802606781" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1577802699620">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="452" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577868980564" />
+    <state x="267" y="378" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1577867324359">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577802699620" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1577802699620">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="267" y="378" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577867324359" />
+    <state x="239" y="358" key="#项目结构" timestamp="1577868080382">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577802699620" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1577802699620">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="239" y="358" key="#项目结构/0.0.2560.1400@0.0.2560.1400" timestamp="1577868080382" />
+    <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1577868993102">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577802699620" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1577802699620">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577868993102" />
+    <state width="1234" height="398" key="GridCell.Tab.0.center" timestamp="1577868993102">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577802699620" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1577802699630">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577868993102" />
+    <state width="1234" height="398" key="GridCell.Tab.0.left" timestamp="1577868993102">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577802699630" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1577802699630">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577868993102" />
+    <state width="1234" height="398" key="GridCell.Tab.0.right" timestamp="1577868993102">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577802699630" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1577802699630">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577868993102" />
+    <state width="1234" height="398" key="GridCell.Tab.1.bottom" timestamp="1577868960034">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577802699630" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1577802699630">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577868960034" />
+    <state width="1234" height="398" key="GridCell.Tab.1.center" timestamp="1577868960034">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577802699630" />
-    <state x="818" y="382" key="Maven.ArtifactSearchDialog" timestamp="1577803910018">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1234" height="398" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577868960034" />
+    <state width="1234" height="398" key="GridCell.Tab.1.left" timestamp="1577868960034">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="818" y="382" key="Maven.ArtifactSearchDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1577803910018" />
-    <state x="675" y="339" key="SettingsEditor" timestamp="1577804249781">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1234" height="398" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577868960034" />
+    <state width="1234" height="398" key="GridCell.Tab.1.right" timestamp="1577868960034">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="130" y="48" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577802047341" />
-    <state x="675" y="339" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1577804249781" />
-    <state x="506" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1577799915431">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1234" height="398" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577868960034" />
+    <state width="1234" height="488" key="GridCell.Tab.2.bottom" timestamp="1577868052605">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="506" y="347" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577799915431" />
-    <state x="844" y="590" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577858058758" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/demo$DemoApplication.ic" NAME="DemoApplication Coverage Results" MODIFIED="1577801154222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.example.demo.*</FILTER>
-    </SUITE>
+    <state width="1234" height="488" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577868052605" />
+    <state width="1234" height="488" key="GridCell.Tab.2.center" timestamp="1577868052605">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="488" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577868052605" />
+    <state width="1234" height="488" key="GridCell.Tab.2.left" timestamp="1577868052605">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="488" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577868052605" />
+    <state width="1234" height="488" key="GridCell.Tab.2.right" timestamp="1577868052605">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="488" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577868052605" />
+    <state x="21" y="401" key="new project wizard" timestamp="1577866815568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="21" y="401" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577866815568" />
   </component>
 </project>
