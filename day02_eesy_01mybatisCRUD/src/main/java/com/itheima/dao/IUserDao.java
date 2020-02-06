@@ -1,6 +1,5 @@
 package com.itheima.dao;
 
-import com.itheima.domain.QueryVo;
 import com.itheima.domain.User;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
@@ -89,14 +88,4 @@ public interface IUserDao {
      * @return int
      */
     int findTotal();
-
-
-    /**
-     * 根据QueryVo中的条件查询用户信息
-     * @param vo
-     * @return List<User>
-     */
-    List<User> findUserByVo(QueryVo vo);
-
-
 }
