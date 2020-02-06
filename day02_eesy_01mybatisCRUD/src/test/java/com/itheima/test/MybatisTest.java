@@ -1,6 +1,7 @@
 package com.itheima.test;
 
 import com.itheima.dao.IUserDao;
+import com.itheima.domain.QueryVo;
 import com.itheima.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -13,7 +14,6 @@ import org.junit.Test;
 import java.io.InputStream;
 import java.time.LocalDateTime;
 import java.time.Month;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
@@ -66,10 +66,10 @@ public class MybatisTest {
     public void testI() {
 //        5.执行插入方法
         User user = new User();
-        user.setUsername("mybatis saveuser4");
-        user.setAddress("佛山市南海区");
-        user.setSex("男");
-        user.setBirthday(LocalDateTime.now());
+        user.setUserName("mybatis saveuser4");
+        user.setUserAddress("佛山市南海区");
+        user.setUserSex("男");
+        user.setUserBirthday(LocalDateTime.now());
 //        5.执行保存(插入)方法
         userDao.insertUser(user);
     }
@@ -80,11 +80,11 @@ public class MybatisTest {
     @Test
     public void testU() {
         User user = new User();
-        user.setId(52);
-        user.setUsername("mybatis saveuser4");
-        user.setAddress("广州市");
-        user.setSex("男");
-        user.setBirthday(LocalDateTime.of(2000, Month.DECEMBER, 3, 6, 30));
+        user.setUserId(52);
+        user.setUserName("mybatis saveuser4");
+        user.setUserAddress("广州市");
+        user.setUserSex("男");
+        user.setUserBirthday(LocalDateTime.of(2000, Month.DECEMBER, 3, 6, 30));
 //        5.执行更新方法
         userDao.updateU(user);
     }
@@ -117,10 +117,10 @@ public class MybatisTest {
     @Test
     public void testSave() {
         User user = new User();
-        user.setUsername("mybatis last insert id");
-        user.setAddress("廉江市");
-        user.setSex("男");
-        user.setBirthday(LocalDateTime.of(2000,Month.DECEMBER,3,6,6));
+        user.setUserName("modify User property");
+        user.setUserAddress("广东省");
+        user.setUserSex("男");
+        user.setUserBirthday(LocalDateTime.of(2000,Month.DECEMBER,3,6,6));
         System.out.println("保存操作之前"+user);
 //        5.执行保存(插入)方法
         userDao.saveUser(user);
@@ -135,11 +135,11 @@ public class MybatisTest {
     @Test
     public void testUpdate() {
         User user = new User();
-        user.setId(50);
-        user.setUsername("mybatis saveuser");
-        user.setAddress("北京市顺义区");
-        user.setSex("女");
-        user.setBirthday(LocalDateTime.now());
+        user.setUserId(50);
+        user.setUserName("mybatis saveuser");
+        user.setUserAddress("北京市顺义区");
+        user.setUserSex("女");
+        user.setUserBirthday(LocalDateTime.now());
 //        5.执行更新方法
         userDao.updateUser(user);
     }
@@ -150,7 +150,7 @@ public class MybatisTest {
     @Test
     public void testDelete() {
 //        5.执行删除方法
-        userDao.deleteUser(48);
+        userDao.deleteUser(59);
     }
 
     /**
@@ -184,5 +184,21 @@ public class MybatisTest {
 //        5.执行查询总记录条数方法
         int count = userDao.findTotal();
         System.out.println("总记录条数："+count);
+    }
+
+
+    /**
+     * 测试使用QueryVo作为查询条件
+     */
+    @Test
+    public void testFindByVo() {
+        QueryVo vo = new QueryVo();
+        User user = new User();
+        user.setUserName("%王%");
+        vo.setUser(user);
+        List<User> users = userDao.findUserByVo(vo);
+        for (User u : users) {
+            System.out.println(u);
+        }
     }
 }

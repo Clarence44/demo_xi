@@ -11,60 +11,60 @@ import java.time.LocalDateTime;
  */
 public class User implements Serializable {
 
-    private Integer id;
-    private String username;
-    private String address;
-    private String sex;
-    private LocalDateTime birthday;
+    private Integer userId;
+    private String userName;
+    private String userAddress;
+    private String userSex;
+    private LocalDateTime userBirthday;
 
-    public Integer getId() {
-        return id;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public String getAddress() {
-        return address;
+    public String getUserAddress() {
+        return userAddress;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setUserAddress(String userAddress) {
+        this.userAddress = userAddress;
     }
 
-    public String getSex() {
-        return sex;
+    public String getUserSex() {
+        return userSex;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setUserSex(String userSex) {
+        this.userSex = userSex;
     }
 
-    public LocalDateTime getBirthday() {
-        return birthday;
+    public LocalDateTime getUserBirthday() {
+        return userBirthday;
     }
 
-    public void setBirthday(LocalDateTime birthday) {
-        this.birthday = birthday;
+    public void setUserBirthday(LocalDateTime userBirthday) {
+        this.userBirthday = userBirthday;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", address='" + address + '\'' +
-                ", sex='" + sex + '\'' +
-                ", birthday=" + birthday +
+                "userId=" + userId +
+                ", userName='" + userName + '\'' +
+                ", userAddress='" + userAddress + '\'' +
+                ", userSex='" + userSex + '\'' +
+                ", userBirthday=" + userBirthday +
                 '}';
     }
 }
