@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea/*
+/day02_eesy_01mybatisCRUD/.idea/**
 *.iws
 *.iml
 *.ipr
