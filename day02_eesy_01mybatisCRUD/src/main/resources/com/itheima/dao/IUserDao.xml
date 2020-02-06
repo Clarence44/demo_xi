@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+    <select id="findAll" resultType="com.itheima.domain.User">
+        SELECT * FROM user
+    </select>
+
+    <!--保存用户-->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+        <!--配置插入操作后，获取插入数据的id-->
+        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+            SELECT last_insert_id()
+        </selectKey>
+        INSERT INTO user(username,address,sex,birthday)values(#{username},#{address},#{sex},#{birthday})
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateUser" parameterType="com.itheima.domain.User">
+        UPDATE user SET username=#{username},address=#{address},sex=#{sex},birthday=#{birthday} WHERE id = #{id}
+    </update>
+
+    <!--删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id = #{uid}
+    </delete>
+
+    <!--根据id查询用户-->
+    <select id="findById" parameterType="INT" resultType="com.itheima.domain.User">
+        SELECT * FROM user WHERE id = #{uid}
+    </select>
+
+    <!--根据名称查询用户-->
+    <select id="findByName" parameterType="java.lang.String" resultType="com.itheima.domain.User">
+        SELECT * FROM user WHERE username LIKE #{name}  <!--常用此方法 PreparedStatement-->
+    <!--SELECT * FROM user WHERE username LIKE '%${value}%'   !!!不常用 Statement字符串拼接-->
+</select>
+
+<!--获取用户的总记录条数-->
+    <select id="findTotal" resultType="int">
+        SELECT count(id) FROM user
+    </select>
+</mapper>
